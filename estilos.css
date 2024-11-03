@@ -1,0 +1,80 @@
+#maquina{
+    font-family: Orbitron;
+    width: 50%;
+    height: 50%;
+    border: 5px solid #A0A060;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #DDDDAA inset;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#ventanas{
+    border: 2px solid #A0A060;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 85%;
+}
+.ventana{
+    width: 30%;
+    height: 140px;
+    border: 2px solid #A0A060;
+    border-radius: 3px;
+    margin: 5px;
+}
+#botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 85%;
+}
+.boton{
+    width: 30%;
+    border: 2px solid #A0A060;
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: aqua;
+    background-color: rgb(51, 24, 15);
+}
+#botonJugar{
+    width: 150px;
+    height: 50px;
+    font-size: 2.2em;
+    color: aquamarine;
+}
+img{
+    width: 130px;
+}
+#tabla{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#tabla img{
+    width: 50px;
+    height: 50px;
+    
+}
+.cantidad{
+    font-size: 1.5em;
+    color: #444;
+    margin-left: 10px;
+}
+#credito, #premio{
+    font-size: 1.4em;
+    background-color: #444;
+    color: aquamarine;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+#credito{
+    margin-top: -10px;
+}
