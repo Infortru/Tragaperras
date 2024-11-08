@@ -9,6 +9,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    user-select: none;
 }
 #ventanas{
     border: 2px solid #A0A060;
@@ -67,7 +68,7 @@ img{
     color: #444;
     margin-left: 10px;
 }
-#credito, #premio{
+#credito, #premio, #avances{
     font-size: 1.4em;
     background-color: #444;
     color: aquamarine;
